@@ -1,5 +1,12 @@
-# Juego tres en raya 🤯 :facepunch:
-
+# Juego tres en raya 🤯 ❌ :large_blue_circle:
+1. Si nos pasan una funcion como prop al componente y este debe tener parametros. Podemos crear una funcion
+    aux en el mismo componente donde invoquemos la funcion que nos pasan y ahi meterle los parametros.
+    const Square = ( {children, isSelect, updateBoard, index} ) => {
+    const handlerClick = () => {
+      updateBoard(index)
+    ...
+    }}
+  ej: updateBoard(index) si o si recibe el index entonces lo encapsulo en handlerCLick. 
 1. grid-template-columns: repeat(3, 1fr);  3 columnas por fraccion.
 1. En javascript:
   const [board, setBoard] = useState(Array(9).fill(null))
@@ -52,5 +59,9 @@
       })
     } 
 1. No podes hacer un async await porque esto no devuelve una promesa. 
-1.  
+1. aBoard.every( (square) => { return square != null } ) Funcion anomima para poder ver de golpe si 
+   todos los square son distintos de null.
+1. Para agregar confeti al celebrar add a dependecy:
+    npm install canvas-confetti -E.
+
 
