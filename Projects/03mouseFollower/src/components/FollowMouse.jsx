@@ -39,7 +39,7 @@ const FollowMouse = () => {
     if(!enable){
       setPosition({ x:0, y:0})
     } 
-    
+
   },[])
 
 
