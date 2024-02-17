@@ -90,7 +90,7 @@ Luego al invocarla hacemos algo asi:  saveDataToLS({aBoard: newBoard, aNewTurn: 
 1. Esqueleto: 
 ```
     useEffect( una funcion ej un arrowFunction, [lista de dependencias])
-```
+``` 
 1. Como mnimo se ejecuta 1 vez el useEffect (porque el comoponente se monta una vez).
 1. Si no le pasaamos un parametro la funcion se ejecutara cada vez que se renderiza el componente. 
 1. Si le pasamos [] como lista de dependencia solo se ejecutara el codigo al momento de montarse 
