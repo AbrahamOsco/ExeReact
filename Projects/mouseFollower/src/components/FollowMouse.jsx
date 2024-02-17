@@ -24,6 +24,24 @@ const FollowMouse = () => {
   const handlerClick = () => {
     setEnabled(!enable)
   }
+  // Aca si enable es true agregamos la clase no-cursor del body
+  //  y si es false eliminamos la clase no-cursor del body
+  useEffect( ()=>{
+    document.body.classList.toggle('no-cursor', enable)
+    
+    return (() => {
+      document.body.classList.remove('no-cursor')
+    })
+  },[enable] )
+  // cuando se desmonta el componente elimina el no-cursor (por el remove en el return)
+  
+  useEffect( () => {
+    if(!enable){
+      setPosition({ x:0, y:0})
+    } 
+    
+  },[])
+
 
   return (
     <>
