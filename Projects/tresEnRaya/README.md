@@ -1,4 +1,4 @@
-# Juego tres en raya 🤯 ❌ :large_blue_circle:
+# Juego Hachas o maderas (tres en raya) 🤯 🪓 🪵
 1. Si nos pasan una funcion como prop al componente y este debe tener parametros. Podemos crear una funcion
     aux en el mismo componente donde invoquemos la funcion que nos pasan y ahi meterle los parametros.
     const Square = ( {children, isSelect, updateBoard, index} ) => {
@@ -63,5 +63,40 @@
    todos los square son distintos de null.
 1. Para agregar confeti al celebrar add a dependecy:
     npm install canvas-confetti -E.
+### Local storage:
+1. En local storage **es una base de datos EN MEMORIA CLAVE-VALOR!** guardamos un par clave-valor (ambos son strings) haciendo:
+    ```window.localStorage.setItem('board', JSON.stringify(newBoard))```
+1. El use stage, todos los hooks nunca pueden estar dentro de un if, ni un while,ni un for.
+    (porque React guarda las posiciones de los hooks en un array interno en memoria)
+1. *** Los hooks siempren Tienen que estar siempre en el cuerpo de un componente. ***  
+1. Es importante evitar leer el localStorage en cada render, porque leer de LS es  **lento, sincrono y  bloquea!!**.
+1. Como la inicializacion del useStage solo ocurre una vez ahi inicializamos con local storage o el default.
+1. Al resetear la partida no nos olvidemos que debemos resetear el local storage tambien: 
+    window.localStorage.removeItem('board')
+    window.localStorage.removeItem('turn')
 
-
+1. Ejemplo de destructuring: Creamos una funcion del estilo recibe un objeto como argumentos: 
+``` 
+const saveDataToLS = ({aBoard, aNewTurn}) => {
+    window.localStorage.setItem('board', JSON.stringify(aBoard))
+    window.localStorage.setItem('turn', aNewTurn)
+    }
+```
+Luego al invocarla hacemos algo asi:  saveDataToLS({aBoard: newBoard, aNewTurn: newTurn})
+### UseEffect (Otro Hook 🤯): 
+1. Nos ejecutar codigo arbitrario cuando un componente:
+    1. Se monta en el DOM
+    1. Cada vez que cambian las dependencias que nosotros le digamos. 
+1. Esqueleto: 
+```
+    useEffect( una funcion ej un arrowFunction, [lista de dependencias])
+```
+1. Como mnimo se ejecuta 1 vez el useEffect (porque el comoponente se monta una vez).
+1. Si no le pasaamos un parametro la funcion se ejecutara cada vez que se renderiza el componente. 
+1. Si le pasamos [] como lista de dependencia solo se ejecutara el codigo al momento de montarse 
+    el componente
+1. Como todo Hook estos deben ir en el cuerpo de la funcion.
+    1. Podemos usar el useEffect por ej:
+        1. cada vez q cambia el winner enviar una peticion a la BD. 
+        1. Suscribirte a eventos que son del DOM. 
+1. Se pueden tener muchos useEffects.

@@ -1,42 +1,54 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import confetti from "canvas-confetti"
 import { Square } from './components/Square'
 import { NAME_GAME, GAME_STATE, TURNS } from './constants'
 import { checkWinner } from './logic/board'
 import { WinnerModal } from './components/WinnerModal'
+import { saveDataToLS, resetDataLS } from './logic/storage'
+
+const getBoard = () => {
+  const boardFromLS = window.localStorage.getItem('board')
+  if (boardFromLS) return JSON.parse(boardFromLS)
+  return Array(9).fill(null)
+}
+const getTurn = () => {
+  const turnFromLS = window.localStorage.getItem('turn')
+  if (turnFromLS) return turnFromLS
+  return TURNS.X
+}
 
 function App() {
-  const [board, setBoard] = useState(Array(9).fill(null))
-  const [turn, setTurn] = useState(TURNS.X)
+  const [board, setBoard] = useState(getBoard)
+  const [turn, setTurn] = useState(getTurn)
+
   const [winner, setWinner] = useState(GAME_STATE.IN_GAME)
-
   const updateBoard = (index) => {
-    console.log(winner)
     if( board[index] || winner != GAME_STATE.IN_GAME) return
-
     const newBoard = [...board]
     newBoard[index] = turn
     setBoard(newBoard)
-
     const newTurn = (turn == TURNS.X ? TURNS.O : TURNS.X)
     setTurn(newTurn)
+    saveDataToLS({aBoard: newBoard, aNewTurn: newTurn})
     const newWinner = checkWinner(newBoard)
     if ( newWinner == TURNS.X || newWinner == TURNS.O ){
       confetti()
-      setWinner( (previewState) => {
-        console.log(`Ganador ${newWinner}, el anterior era ${previewState}`)
-        return newWinner
-      })
+      setWinner( (previewState) => { return newWinner })
     } else if (newWinner == GAME_STATE.DRAW ){
       setWinner(GAME_STATE.DRAW)
     }
   }
+  useEffect( ()=> {
+    console.log('Uso usserEffect()')
+  }, [winner] )
 
   const resetGame = () => {
     setBoard(Array(9).fill(null))
     setTurn(TURNS.X)
     setWinner(GAME_STATE.IN_GAME)
+    resetDataLS()
   }
+
 
  
   return (
