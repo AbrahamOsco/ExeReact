@@ -61,6 +61,7 @@ Luego de terminar los requirimientos, primera iteración:
      de tu componente, muy util para guardar cualquier valor como un identidifcador, elemento del DOOM, contador, y cada vez que cambia, NO! vuelve a renderizar el componente. Opuesto al useState.
      **Nos permite obtener un valor qe persista entre renderizados.**
 1. const value = inputRef.current.value; console.log(value);
+1. Nos permite jugar con el estado anterior.  
 1. inputRef.current es equivalente al inputElement y para recuperar el valro del input accedemos a value.  
 1. En los formularios conviene hacer un handlerSubmit y colcarlo en el form en lugar de hacer un handlerClick y
     ponerlo en el boton de tipo 'submit'. (Recuperamos toda la inforamcion y mucho mas con handlerSubmit.)
