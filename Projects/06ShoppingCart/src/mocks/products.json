@@ -1,0 +1,404 @@
+{
+    "products":[
+      {
+         "id":30,
+         "title":"Key Holder",
+         "description":"Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+         "price":30,
+         "discountPercentage":2.92,
+         "rating":4.92,
+         "stock":54,
+         "brand":"Golden",
+         "category":"home-decoration",
+         "thumbnail":"https://picsum.photos/id/1026/600/400",
+         "images":[
+            "https://picsum.photos/id/1026/600/400",
+            "https://i.dummyjson.com/data/products/30/2.jpg",
+            "https://i.dummyjson.com/data/products/30/3.jpg",
+            "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":6,
+         "title":"MacBook Pro",
+         "description":"MacBook Pro 2021 with mini-LED display may launch between September, November",
+         "price":1749,
+         "discountPercentage":11.02,
+         "rating":4.57,
+         "stock":83,
+         "brand":"Apple",
+         "category":"laptops",
+         "thumbnail":"https://picsum.photos/id/1027/600/400",
+         "images":[
+            "https://picsum.photos/id/1027/600/400",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/4.jpg"
+         ]
+      },
+      {
+         "id":2,
+         "title":"iPhone X",
+         "description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+         "price":899,
+         "discountPercentage":17.94,
+         "rating":4.44,
+         "stock":34,
+         "brand":"Apple",
+         "category":"smartphones",
+         "thumbnail":"https://picsum.photos/id/1028/600/400",
+         "images":[
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":3,
+         "title":"Samsung Universe 9",
+         "description":"Samsung's new variant which goes beyond Galaxy to the Universe",
+         "price":1249,
+         "discountPercentage":15.46,
+         "rating":4.09,
+         "stock":36,
+         "brand":"Samsung",
+         "category":"smartphones",
+         "thumbnail":"https://picsum.photos/id/1029/600/400",
+         "images":[
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+         ]
+      },
+      {
+         "id":4,
+         "title":"OPPOF19",
+         "description":"OPPO F19 is officially announced on April 2021.",
+         "price":280,
+         "discountPercentage":17.91,
+         "rating":4.3,
+         "stock":123,
+         "brand":"OPPO",
+         "category":"smartphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/4.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":5,
+         "title":"Huawei P30",
+         "description":"Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+         "price":499,
+         "discountPercentage":10.58,
+         "rating":4.09,
+         "stock":32,
+         "brand":"Huawei",
+         "category":"smartphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/5/1.jpg",
+            "https://i.dummyjson.com/data/products/5/2.jpg",
+            "https://i.dummyjson.com/data/products/5/3.jpg"
+         ]
+      },
+      {
+         "id":7,
+         "title":"Samsung Galaxy Book",
+         "description":"Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+         "price":1499,
+         "discountPercentage":4.15,
+         "rating":4.25,
+         "stock":50,
+         "brand":"Samsung",
+         "category":"laptops",
+         "thumbnail":"https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/7/1.jpg",
+            "https://i.dummyjson.com/data/products/7/2.jpg",
+            "https://i.dummyjson.com/data/products/7/3.jpg",
+            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":1,
+         "title":"iPhone 9",
+         "description":"An apple mobile which is nothing like apple",
+         "price":549,
+         "discountPercentage":12.96,
+         "rating":4.69,
+         "stock":94,
+         "brand":"Apple",
+         "category":"smartphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/4.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":8,
+         "title":"Microsoft Surface Laptop 4",
+         "description":"Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+         "price":1499,
+         "discountPercentage":10.23,
+         "rating":4.43,
+         "stock":68,
+         "brand":"Microsoft Surface",
+         "category":"laptops",
+         "thumbnail":"https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":9,
+         "title":"Huawei MateBook X Pro",
+         "description":"Huawei MateBook X Pro is a stylish laptop powered by the 8th Generation Intel Core i7 8550U processor and ...",
+         "price":1499,
+         "discountPercentage":8.2,
+         "rating":4.72,
+         "stock":45,
+         "brand":"Huawei",
+         "category":"laptops",
+         "thumbnail":"https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.jpg",
+            "https://i.dummyjson.com/data/products/9/3.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":10,
+         "title":"Dell XPS 15",
+         "description":"Dell XPS 15 (2020) With 10th Gen Intel Core Processors, Up to 25 Hours Battery Life Launched in India",
+         "price":1899,
+         "discountPercentage":5.95,
+         "rating":4.69,
+         "stock":43,
+         "brand":"Dell",
+         "category":"laptops",
+         "thumbnail":"https://i.dummyjson.com/data/products/10/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/10/1.jpg",
+            "https://i.dummyjson.com/data/products/10/2.jpg",
+            "https://i.dummyjson.com/data/products/10/3.jpg",
+            "https://i.dummyjson.com/data/products/10/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":11,
+         "title":"Acer Swift 3",
+         "description":"Acer Swift 3 (2020) Laptop With AMD Ryzen 4000 Series Processor Launched",
+         "price":799,
+         "discountPercentage":12.52,
+         "rating":4.32,
+         "stock":59,
+         "brand":"Acer",
+         "category":"laptops",
+         "thumbnail":"https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/11/1.jpg",
+            "https://i.dummyjson.com/data/products/11/2.jpg",
+            "https://i.dummyjson.com/data/products/11/3.jpg",
+            "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":12,
+         "title":"Sony WH-1000XM4",
+         "description":"Sony WH-1000XM4 wireless active noise-cancelling headphones launched in India",
+         "price":349,
+         "discountPercentage":15.19,
+         "rating":4.8,
+         "stock":55,
+         "brand":"Sony",
+         "category":"headphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/12/1.jpg",
+            "https://i.dummyjson.com/data/products/12/2.jpg",
+            "https://i.dummyjson.com/data/products/12/3.jpg",
+            "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":13,
+         "title":"Bose QuietComfort 35 II",
+         "description":"Bose QuietComfort 35 II (QC35 II) wireless headphones",
+         "price":349,
+         "discountPercentage":16.91,
+         "rating":4.7,
+         "stock":63,
+         "brand":"Bose",
+         "category":"headphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/13/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.jpg",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":14,
+         "title":"Apple AirPods Pro",
+         "description":"Active Noise Cancellation for immersive sound Transparency mode for hearing and connecting with the world around you",
+         "price":249,
+         "discountPercentage":10.84,
+         "rating":4.8,
+         "stock":92,
+         "brand":"Apple",
+         "category":"headphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/14/1.jpg",
+            "https://i.dummyjson.com/data/products/14/2.jpg",
+            "https://i.dummyjson.com/data/products/14/3.jpg",
+            "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":15,
+         "title":"OnePlus Buds Z",
+         "description":"A ten-minute charge for three hours of listening. Extra-compact design. Enhanced bass.",
+         "price":49,
+         "discountPercentage":0,
+         "rating":4.2,
+         "stock":76,
+         "brand":"OnePlus",
+         "category":"headphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/15/1.jpg",
+            "https://i.dummyjson.com/data/products/15/2.jpg",
+            "https://i.dummyjson.com/data/products/15/3.jpg",
+            "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":16,
+         "title":"Samsung Galaxy Buds Live",
+         "description":"The Galaxy Buds Live earbuds feature a minimalistic design, with a tiny case that charges the buds quickly via USB-C.",
+         "price":169,
+         "discountPercentage":8.28,
+         "rating":4.4,
+         "stock":47,
+         "brand":"Samsung",
+         "category":"headphones",
+         "thumbnail":"https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/16/1.jpg",
+            "https://i.dummyjson.com/data/products/16/2.jpg",
+            "https://i.dummyjson.com/data/products/16/3.jpg",
+            "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":17,
+         "title":"Apple Watch Series 6",
+         "description":"Measure your blood oxygen level with a revolutionary new sensor and app.",
+         "price":399,
+         "discountPercentage":0,
+         "rating":4.9,
+         "stock":32,
+         "brand":"Apple",
+         "category":"smartwatches",
+         "thumbnail":"https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/17/1.jpg",
+            "https://i.dummyjson.com/data/products/17/2.jpg",
+            "https://i.dummyjson.com/data/products/17/3.jpg",
+            "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+         ]
+      },
+      {
+         "id":18,
+         "title":"Samsung Galaxy Watch 3",
+         "description":"Galaxy Watch 3 combines smartphone-level productivity and sophisticated health technology in one classic, premium device.",
+         "price":399,
+         "discountPercentage":5.01,
+         "rating":4.7,
+         "stock":24,
+         "brand":"Samsung",
+         "category":"smartwatches",
+         "thumbnail":"https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+         "images":[
+            "https://i.dummyjson.com/data/products/18/1.jpg",
+            "https://i.dummyjson.com/data/products/18/2.jpg",
+            "https://i.dummyjson.com/data/products/18/3.jpg",
+            "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+         ]
+      },
+       {
+          "id":27,
+          "title":"Flying Wooden Bird",
+          "description":"Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
+          "price":51,
+          "discountPercentage":15.58,
+          "rating":4.41,
+          "stock":17,
+          "brand":"Flying Wooden",
+          "category":"home-decoration",
+          "thumbnail":"https://i.dummyjson.com/data/products/27/thumbnail.webp",
+          "images":[
+             "https://i.dummyjson.com/data/products/27/1.jpg",
+             "https://i.dummyjson.com/data/products/27/2.jpg",
+             "https://i.dummyjson.com/data/products/27/3.jpg",
+             "https://i.dummyjson.com/data/products/27/4.jpg",
+             "https://i.dummyjson.com/data/products/27/thumbnail.webp"
+          ]
+       },
+       {
+          "id":28,
+          "title":"3D Embellishment Art Lamp",
+          "description":"3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
+          "price":20,
+          "discountPercentage":16.49,
+          "rating":4.82,
+          "stock":54,
+          "brand":"LED Lights",
+          "category":"home-decoration",
+          "thumbnail":"https://i.dummyjson.com/data/products/28/thumbnail.jpg",
+          "images":[
+             "https://i.dummyjson.com/data/products/28/1.jpg",
+             "https://i.dummyjson.com/data/products/28/2.jpg",
+             "https://i.dummyjson.com/data/products/28/3.png",
+             "https://i.dummyjson.com/data/products/28/4.jpg",
+             "https://i.dummyjson.com/data/products/28/thumbnail.jpg"
+          ]
+       },
+       {
+          "id":29,
+          "title":"Handcraft Chinese style",
+          "description":"Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+          "price":60,
+          "discountPercentage":15.34,
+          "rating":4.44,
+          "stock":7,
+          "brand":"luxury palace",
+          "category":"home-decoration",
+          "thumbnail":"https://i.dummyjson.com/data/products/29/thumbnail.webp",
+          "images":[
+             "https://i.dummyjson.com/data/products/29/1.jpg",
+             "https://i.dummyjson.com/data/products/29/2.jpg",
+             "https://i.dummyjson.com/data/products/29/3.webp",
+             "https://i.dummyjson.com/data/products/29/4.webp",
+             "https://i.dummyjson.com/data/products/29/thumbnail.webp"
+          ]
+       }
+    ],
+    "total":100,
+    "skip":0,
+    "limit":30
+  }

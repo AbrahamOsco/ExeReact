@@ -1,5 +1,5 @@
 # React + Vite
-
+1. Recordemos para obtener la plantilla inicial del project : npm create vite@latest
 # Componentes
 1. Componentes siempre hacerlos PascalCase para que react reconozca que son componentes, en un futuro pueden aparecer nuevas etiquetsa html y puede hacer conflictos con nuestras componentes por usamos PascalCase.
 1. Todo jsx se transforma en js. 

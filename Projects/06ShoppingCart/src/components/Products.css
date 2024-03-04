@@ -1,0 +1,33 @@
+.products{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  
+}
+
+.products li {
+  background-color: #111;
+  color: #fff;
+  padding: 1rem;
+}
+
+.products h3{
+  margin: 0px;
+}
+
+.products img{
+  border-radius: 4px;
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: block;
+  object-fit: cover;
+  background-color: #fff;
+}
+
