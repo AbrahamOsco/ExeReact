@@ -4,7 +4,6 @@ El objetivo de esta prueba técnica es crear una aplicación similar a :
 Para lograr esto, debe usar la API proporcionada por https://randomuser.me/.
 
 Los pasos a seguir:
-
 - [x] Fetch 100 rows of data using the API.
 - [x] Display the data in a table format, similar to the example.
 - [x] Provide the option to color rows as shown in the example.
