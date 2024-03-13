@@ -20,7 +20,7 @@ export const UserList = ({ handlerChangeSort, deleteUsers, showColors, users} :P
             </thead>
             <tbody className={ showColors ? 'table--showColors' : 'table' }  >
                 {
-                    users.map( (user) => {
+                    users?.map( (user) => {
                     return (
                     <tr key={user.login.uuid} >
                         <td> <img src={user.picture.thumbnail} alt={user.picture.thumbnail} /> </td>
